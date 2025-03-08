@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "titulo": "Nvidia Asus ROG Strix GeForce RTX 4090 24GB",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Asus",
+      "calificacion": 5.0,
+      "descripcion": "Tarjeta gráfica de alto rendimiento con arquitectura Ada Lovelace, 24 GB de memoria GDDR6X y 16,384 núcleos CUDA.",
+      "img": "assets/img/graficas/rtx4090RogStrix.jpg",
+      "precio": 40000.00,
+      "cantidad": 5
+    },
+    {
+      "id": 2,
+      "titulo": "Nvidia Gigabyte GeForce RTX 4070 Ti Aero OC 12G",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Gigabyte",
+      "calificacion": 4.7,
+      "descripcion": "Potente GPU con 12 GB de memoria GDDR6X, arquitectura Ada Lovelace y 7,680 núcleos CUDA, ideal para gaming en 4K.",
+      "img": "assets/img/graficas/rtx4070tiAero.jpg",
+      "precio": 17000.00,
+      "cantidad": 10
+    },
+    {
+      "id": 3,
+      "titulo": "Nvidia Gigabyte GeForce RTX 4080 Super Windforce V2 16GB",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Gigabyte",
+      "calificacion": 4.8,
+      "descripcion": "Gráfica de última generación con 16 GB de memoria GDDR6X, arquitectura Ada Lovelace y 9,728 núcleos CUDA, ofreciendo trazado de rayos en tiempo real.",
+      "img": "assets/img/graficas/rtx4080gigabyte.jpg",
+      "precio": 23000.00,
+      "cantidad": 7
+    },
+    {
+      "id": 4,
+      "titulo": "Nvidia Gigabyte GeForce RTX 4060 TI AERO OC 8GB",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Gigabyte",
+      "calificacion": 4.5,
+      "descripcion": "GPU con 8 GB de memoria GDDR6, arquitectura Ada Lovelace y 4,352 núcleos CUDA, ideal para gaming en 1440p.",
+      "img": "assets/img/graficas/rtx4060ti.jpg",
+      "precio": 10500.00,
+      "cantidad": 12
+    },
+    {
+      "id": 5,
+      "titulo": "Nvidia Asus TUF Gaming GeForce RTX 4070 TI 12GB",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Asus",
+      "calificacion": 4.6,
+      "descripcion": "Tarjeta gráfica con 12 GB de memoria GDDR6X, arquitectura Ada Lovelace y 7,680 núcleos CUDA, diseñada para juegos de última generación.",
+      "img": "assets/img/graficas/rtx4070tiAsusTuf.jpg",
+      "precio": 18200.00,
+      "cantidad": 9
+    },
+    {
+      "id": 6,
+      "titulo": "Nvidia Asus GeForce RTX 4060 Dual EVO White OC",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Asus",
+      "calificacion": 4.4,
+      "descripcion": "Opción económica con 12 GB de memoria GDDR6, arquitectura Ampere y 3,584 núcleos CUDA, ideal para gaming en 1080p.",
+      "img": "assets/img/graficas/rtx3060AsusDualWhite.jpg",
+      "precio": 7400.00,
+      "cantidad": 15
+    },
+    {
+      "id": 7,
+      "titulo": "Nvidia Gigabyte Windforce OC GeForce RTX 3050",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Gigabyte",
+      "calificacion": 4.2,
+      "descripcion": "Buen rendimiento en gaming 1080p con 8 GB de memoria GDDR6, arquitectura Ampere y 2,560 núcleos CUDA.",
+      "img": "assets/img/graficas/rtx3050gigabyte.jpg",
+      "precio": 3800.00,
+      "cantidad": 20
+    },
+    {
+      "id": 8,
+      "titulo": "Nvidia Zotac GeForce RTX 5080 Solid OC",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Zotac",
+      "calificacion": 4.9,
+      "descripcion": "ZOTAC GAMING GeForce RTX™ 5080 SOLID es un paquete de acción sin lujos que satisface tus necesidades de rendimiento y velocidad.",
+      "img": "assets/img/graficas/rtx5080solidOC.jpg",
+      "precio": 30000.00,
+      "cantidad": 6
+    },
+    {
+      "id": 9,
+      "titulo": "Nvidia PNY Quadro RTX A5000 24GB GDDR6",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "PNY",
+      "calificacion": 4.8,
+      "descripcion": "GPU profesional con 32 GB de memoria GDDR6 con ECC, arquitectura Ada Lovelace y 18,176 núcleos CUDA.",
+      "img": "assets/img/graficas/rtx5000ADA.jpg",
+      "precio": 40000.00,
+      "cantidad": 4
+    },
+    {
+      "id": 10,
+      "titulo": "Nvidia RTX 6000 ADA 48GB GDDR6",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "Nvidia",
+      "calificacion": 5.0,
+      "descripcion": "Tarjeta gráfica de alto rendimiento con 48 GB de memoria GDDR6 con ECC, arquitectura Ada Lovelace y 18,176 núcleos CUDA, diseñada para aplicaciones profesionales.",
+      "img": "assets/img/graficas/rtx6000ADA.jpg",
+      "precio": 107000.00,
+      "cantidad": 2
+    }
+  ]
