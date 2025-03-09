@@ -6,7 +6,7 @@ class GPUService {
   static Future<List<GPU>> loadGPUs() async {
     try{
       //Cargar el archivo JSON
-      String jsonString = await rootBundle.loadString('assets/json/gpu.json');
+      String jsonString = await rootBundle.loadString('assets/json/gpus.json');
 
       //Decodificar el archivo JSON y convertirlo en una lista de Map<String, dynamic>
       List<dynamic> jsonList = json.decode(jsonString);

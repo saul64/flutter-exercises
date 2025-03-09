@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
       routes: {
         '/home': (context) => HomePageShopping(),
         '/shoping_cart': (context) => ShopingCart(),
-        'new_page_shopping': (context) => NewPageShopping(),
+        '/new_page_shopping': (context) => NewPageShopping(),
       },
 
       onGenerateRoute: (settings) {

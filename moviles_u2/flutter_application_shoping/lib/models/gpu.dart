@@ -1,20 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
-Future <List<Gpu>> cargarGpus() async {
-  try {
-    final String jsonString = await rootBundle.loadString('assets/json/gpu.json');
-    final Map<String, dynamic> data = json.decode(jsonString);
-    
-    List<dynamic> gpusJson = data['gpus'];
-    List<Gpu> graficas = gpusJson.map((grafica) => Gpu.fromJson(grafica)).toList();
-  
-    return graficas;
-  } catch (e) {
-    print("Error cargando los datos de las GPUs: $e");
-    return [];
-  }
-} 
 
 class Gpu {
 
@@ -54,3 +40,20 @@ class Gpu {
     );
   }
 }
+Future<List<Gpu>> cargarGpus() async {
+  try {
+    final String jsonString = await rootBundle.loadString('assets/json/gpu.json');
+    final Map<String, dynamic> data = json.decode(jsonString);
+    
+    print(data); // Agrega esto para verificar si los datos se cargan correctamente
+
+    List<dynamic> gpusJson = data['gpus'];
+    List<Gpu> graficas = gpusJson.map((grafica) => Gpu.fromJson(grafica)).toList();
+  
+    return graficas;
+  } catch (e) {
+    print("Error cargando los datos de las GPUs: $e");
+    return [];
+  }
+}
+ 
